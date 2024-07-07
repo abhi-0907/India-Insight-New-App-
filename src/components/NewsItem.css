@@ -1,0 +1,53 @@
+/* NewsItem.css */
+.news-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 500px;
+    width: 350px;
+    background-color: rgba(237, 237, 237, 0.6);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  
+  .news-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .news-image img {
+    height: 200px;
+    width: 310px;
+    border-radius: 15px; /* Adjust the border-radius to create the desired shape */
+  }
+  
+  .news-body {
+    flex-grow: 1;
+    color:black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .news-title {
+    text-decoration: underline;
+  }
+  
+  .news-author {
+    margin-top: auto;
+  }
+  
+  .news-button-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .news-button {
+    position: relative;
+    bottom: 5px;
+  }
+  

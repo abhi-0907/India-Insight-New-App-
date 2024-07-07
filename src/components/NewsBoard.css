@@ -1,0 +1,10 @@
+.news-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("C:\Users\abhir\Desktop\news-app\public\general.jpg");
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat-y;
+}
