@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar = ({ setCategory }) => {
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark w-100">
       <div className="container-fluid">
@@ -44,6 +46,7 @@ const Navbar = ({ setCategory }) => {
             </li>
           </ul>
         </div>
+        
       </div>
     </nav>
   );
