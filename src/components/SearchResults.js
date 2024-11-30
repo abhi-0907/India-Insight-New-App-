@@ -20,9 +20,6 @@ function SearchResults({searchTerm}){
           throw new Error("Failed to fetch news");
         }
         const data = await response.json();
-        console.log("******************************");
-        console.log(data);
-        console.log("**********************");
         setSearchResults(data.articles);
       } catch (error) {
         console.error("Error fetching news:", error);
